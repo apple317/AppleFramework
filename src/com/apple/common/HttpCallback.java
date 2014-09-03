@@ -2,7 +2,7 @@ package com.apple.common;
 
 /**
  * 请求callback;
- * @author yangzhi
+ * @author hushaoping
  *
  */
 public interface HttpCallback {

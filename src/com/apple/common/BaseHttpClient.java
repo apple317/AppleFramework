@@ -11,7 +11,7 @@ import com.apple.http.async.RequestParams;
 
 /**
  * 请求对象模板接口
- * @author yangzhi
+ * @author hushaoping
  *
  */
 public interface BaseHttpClient {

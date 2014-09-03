@@ -21,8 +21,6 @@ public class HomeActivity extends DemoBaseActivity {
 	private List<BaseFragment> viewList;
 	private ImageButton btn_action,btn_group, btn_news,btn_games;
 	
-	
-	
 	@Override
 	protected void initView(Bundle bundle) {
 		// TODO Auto-generated method stub

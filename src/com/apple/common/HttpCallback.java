@@ -1,0 +1,24 @@
+package com.apple.common;
+
+/**
+ * 请求callback;
+ * @author yangzhi
+ *
+ */
+public interface HttpCallback {
+	/**
+	 * 请求成功
+	 * @param content   返回值 
+	 * @param object    返回的转化对象
+	 * @param reqType   请求的唯一识别
+	 */
+	public void onSuccess(String content,Object object,int reqType);
+	
+	/**
+	 * 请求失败
+	 * @param error    错误
+	 * @param content   返回值
+	 * @param reqType  请求的唯一识别
+	 */
+	public void onFailure(Throwable error, String content, int reqType);
+}
